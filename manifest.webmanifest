@@ -1,14 +1,18 @@
 {
+  "id": "/julis-famulatur/",
   "name": "Julis Famulatur:)",
   "short_name": "Famulatur:)",
-  "start_url": "./",
-  "scope": "./",
+  "description": "Deutsch für Júlias Famulatur in der Chirurgie",
+  "start_url": "/julis-famulatur/",
+  "scope": "/julis-famulatur/",
   "display": "standalone",
+  "orientation": "portrait",
   "background_color": "#efeaf6",
   "theme_color": "#5a2f94",
   "lang": "de",
   "icons": [
-    {"src": "icon-192.png", "sizes": "192x192", "type": "image/png"},
-    {"src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable"}
+    {"src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
   ]
 }
